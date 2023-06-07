@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/style.css" >
+</head>
+<body>
+{{>header}}
+<h1>{{ heading }}</h1>
+<p>{{ paragraph }}</p>
+<form>
+    <input type="text" name="location" class="location">
+    <input type="submit" name="submit">
+</form>
+<p class="error"></p>
+<p class="forecast"></p>
+{{>footer}}
+
+</body>
+<script src="/js/app.js"></script>
+</html>
